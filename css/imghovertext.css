@@ -27,9 +27,21 @@
 {
   padding-left:200px;
   
+}
+
+.snip1361
+{
+  border: 1px solid rgb(72, 212, 255);
 
 }
 
+.btnlogogalery
+{
+  color: white;
+  box-shadow: darkcyan;
+  background-color: black;
+
+}
 
 .snip1361 figcaption {
   position: absolute;
