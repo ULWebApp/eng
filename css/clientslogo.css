@@ -1,0 +1,62 @@
+
+.containerslide{
+    overflow: hidden;
+    height: 500px;
+    margin-top: -100px;
+    margin-bottom: -80px;
+}
+    .zclientslider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+    }
+      .logos {
+        width: 100%;
+        display: inline-block;
+        margin: 6px 0;
+      }
+        .fab {
+          width: calc(100% / 5);
+          animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+    
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .btnlogo
+  {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+  }
+/* 
+  @media screen and (max-width: 480px) {
+    .zclientslider .logos .containerslide{
+      width: 100px;
+    
+
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .containerslide {
+      height: 300px;
+    }
+  } */
