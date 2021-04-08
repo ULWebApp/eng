@@ -1,0 +1,18 @@
+/* Hero Slider Mobile Switch */
+#HeroSlider .hero-desktop {
+	display: block;
+}
+#HeroSlider .hero-mobile{
+	display: none;
+}
+
+@media (max-width: 992px){
+  #HeroSlider .hero-desktop {
+    display: none;
+  }
+  
+  #HeroSlider .hero-mobile {
+    display: block;
+  }
+}
+/* Hero Slider Mobile Switch */
