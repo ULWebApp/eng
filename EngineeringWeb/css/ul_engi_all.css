@@ -38,7 +38,7 @@ a {
     text-decoration: none !important; }
 
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -739,39 +739,39 @@ z-index: 2; }
 	}
 	
 	#boxOne {
-	  background-image: url('/images/grid_1.jpeg');
+	  background-image: url('../images/grid_1.jpeg');
 	}
 	
 	#boxEight {
-	  background-image: url('/images/grid_2.jpeg');
+	  background-image: url('../images/grid_2.jpeg');
 	}
 	
 	#boxTwo {
-	  background-image: url('/images/grid_3.jpeg');
+	  background-image: url('../images/grid_3.jpeg');
 	}
 	
 	#boxSeven {
-	  background-image: url('/images/grid_4.jpeg');
+	  background-image: url('../images/grid_4.jpeg');
 	}
 	
 	#boxThree {
-	  background-image: url('/images/grid_5.jpeg');
+	  background-image: url('../images/grid_5.jpeg');
 	}
 	
 	#boxSix {
-	  background-image: url('/images/grid_6.jpeg');
+	  background-image: url('../images/grid_6.jpeg');
 	}
 	
 	#boxFour {
-	  background-image: url('/images/grid_7.jpeg');
+	  background-image: url('../images/grid_7.jpeg');
 	}
 	
 	#boxFive {
-	  background-image: url('/images/grid_8.jpeg');
+	  background-image: url('../images/grid_8.jpeg');
 	}
 
 	#boxNine {
-	  background-image: url('/images/grid_9.jpeg');
+	  background-image: url('../images/grid_9.jpeg');
 	}
 	
 	

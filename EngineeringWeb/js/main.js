@@ -181,58 +181,6 @@ var sickSecondary = {
 $('.image-slider').slick(sickPrimary);
 $('.text-slider').slick(sickSecondary);
 
-
-// Client List
-$(
-	".no-touch .project-list li:nth-child(3), .no-touch .project-list li:nth-child(8)"
- ).hover(function (e) {
-	$(this)
-	 .parents(".client-meta")
-	 .next(".overflow-wrapper")
-	 .find("img:nth-child(1)")
-	 .toggleClass("show-image");
- });
- 
- $(
-	".no-touch .project-list li:nth-child(4), .no-touch .project-list li:nth-child(9)"
- ).hover(function (e) {
-	$(this)
-	 .parents(".client-meta")
-	 .next(".overflow-wrapper")
-	 .find("img:nth-child(2)")
-	 .toggleClass("show-image");
- });
- 
- $(
-	".no-touch .project-list li:nth-child(5), .no-touch .project-list li:nth-child(9)"
- ).hover(function (e) {
-	$(this)
-	 .parents(".client-meta")
-	 .next(".overflow-wrapper")
-	 .find("img:nth-child(3)")
-	 .toggleClass("show-image");
- });
- 
- $(
-	".no-touch .project-list li:nth-child(6), .no-touch .project-list li:nth-child(10)"
- ).hover(function (e) {
-	$(this)
-	 .parents(".client-meta")
-	 .next(".overflow-wrapper")
-	 .find("img:nth-child(4)")
-	 .toggleClass("show-image");
- });
- 
- $(
-	".no-touch .project-list li:nth-child(7), .no-touch .project-list li:nth-child(11)"
- ).hover(function (e) {
-	$(this)
-	 .parents(".client-meta")
-	 .next(".overflow-wrapper")
-	 .find("img:nth-child(5)")
-	 .toggleClass("show-image");
- });
- 
  // Reset
  $(".touch .client-wrap").click(function (event) {
 	var target = $(event.target);
