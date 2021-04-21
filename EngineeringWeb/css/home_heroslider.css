@@ -16,3 +16,9 @@
   }
 }
 /* Hero Slider Mobile Switch */
+
+
+/* Slider image contrast */
+.carousel-fade .carousel-item img {
+  filter:brightness(54%);
+}
