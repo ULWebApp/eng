@@ -20,5 +20,9 @@
 
 /* Slider image contrast */
 .carousel-fade .carousel-item img {
-  filter:brightness(54%);
+  filter:brightness(64%);
+}
+
+.bottom-25vh{
+  bottom: 25vh;
 }
